@@ -1,0 +1,24 @@
+Assignment:
+    Server Side:
+        Keep track of profits and losses
+
+    Client Side:
+        Bet however much you'd like, minimum of $1 <- 
+            - Using an input element
+            - Limit -> set that in main.js
+            - Set up array for red and black
+Thoughts
+
+
+
+
+
+
+
+
+Pseudocode
+QuerySelector for the bet, the choice (red/black), and the button to bet
+We use a random number generator to generate a number between 1 and 36. Let's call this number "final"
+If final is included in array "Red" and the choice was Red, casino loses the bet, else casino wins the bet.
+If final is inlucded in array "Black" and the choice was Black, casino loses the bet, else casino wins the bet.
+In either case, we send over the result to the server.
